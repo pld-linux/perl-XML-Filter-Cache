@@ -6,7 +6,7 @@
 %define	pdir	XML
 %define	pnam	Filter-Cache
 Summary:	XML::Filter::Cache - a SAX2 recorder/playback mechanism
-#Summary(pl):	
+Summary(pl):	XML::Filter::Cache - mechanizm nagrywania/odtwarzania SAX2
 Name:		perl-XML-Filter-Cache
 Version:	0.03
 Release:	1
@@ -25,12 +25,13 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This is a very simple filter module for SAX2 events. By default it caches
-events into a big binary file on disk (the cache files are generally much
-larger than the original XML at the moment, but I'll work on that), but
-the storage backend is pluggable. It uses Storable to do the freeze/thaw
-thing, and at the moment this is not pluggin replaceable, simply because
-there's no better tool for the task at hand.
+This is a very simple filter module for SAX2 events. By default it
+caches events into a big binary file on disk (the cache files are
+generally much larger than the original XML at the moment, but I'll
+work on that), but the storage backend is pluggable. It uses Storable
+to do the freeze/thaw thing, and at the moment this is not pluggin
+replaceable, simply because there's no better tool for the task at
+hand.
 
 # %description -l pl
 # TODO
