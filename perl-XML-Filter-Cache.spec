@@ -15,7 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2590e2a28c5741aa8cd14503e0ea767e
-BuildRequires:	perl-devel >= 5.6
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-XML-SAX >= 0.08
@@ -33,8 +33,14 @@ to do the freeze/thaw thing, and at the moment this is not pluggin
 replaceable, simply because there's no better tool for the task at
 hand.
 
-# %description -l pl
-# TODO
+%description -l pl
+To jest bardzo prosty modu³ filtra dla zdarzeñ SAX2. Domy¶lnie
+buforuje on zdarzenia w du¿ym pliku binarnym na dysku (aktualnie pliki
+bufora s± zwykle o wiele wiêksze ni¿ oryginalny XML, ale autor tym siê
+zajmie), ale backend przechowywania danych jest wymienny. Do
+wykonywania freeze/thaw u¿ywana jest klasa Storable i aktualnie nie
+jest zamienna, poniewa¿ po prostu nie ma lepszego narzêdzia do tego
+celu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
