@@ -3,8 +3,8 @@
 %bcond_without	tests		# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	Filter-Cache
+%define		pdir	XML
+%define		pnam	Filter-Cache
 Summary:	XML::Filter::Cache - a SAX2 recorder/playback mechanism
 Summary(pl):	XML::Filter::Cache - mechanizm nagrywania/odtwarzania SAX2
 Name:		perl-XML-Filter-Cache
