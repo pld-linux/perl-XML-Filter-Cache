@@ -1,0 +1,11 @@
+--- t/03speed.t~	2004-08-27 23:56:59.680813960 +0200
++++ t/03speed.t	2004-08-27 23:57:06.023849672 +0200
+@@ -19,7 +19,7 @@
+         Key => "speed",
+         CacheRoot => "./cacheroot",
+         );
+-# local $XML::SAX::ParserPackage = "XML::SAX::PurePerl";
++ local $XML::SAX::ParserPackage = "XML::SAX::PurePerl";
+ my $parser = XML::SAX::ParserFactory->parser(Handler => $filter);
+ print "Using a ", ref($parser), " parser object\n";
+ 
