@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Filter-Cache
 Summary:	XML::Filter::Cache - a SAX2 recorder/playback mechanism
-Summary(pl):	XML::Filter::Cache - mechanizm nagrywania/odtwarzania SAX2
+Summary(pl.UTF-8):   XML::Filter::Cache - mechanizm nagrywania/odtwarzania SAX2
 Name:		perl-XML-Filter-Cache
 Version:	0.03
 Release:	2
@@ -34,13 +34,13 @@ to do the freeze/thaw thing, and at the moment this is not pluggin
 replaceable, simply because there's no better tool for the task at
 hand.
 
-%description -l pl
-To jest bardzo prosty modu³ filtra dla zdarzeñ SAX2. Domy¶lnie
-buforuje on zdarzenia w du¿ym pliku binarnym na dysku (aktualnie pliki
-bufora s± zwykle o wiele wiêksze ni¿ oryginalny XML, ale autor tym siê
+%description -l pl.UTF-8
+To jest bardzo prosty moduÅ‚ filtra dla zdarzeÅ„ SAX2. DomyÅ›lnie
+buforuje on zdarzenia w duÅ¼ym pliku binarnym na dysku (aktualnie pliki
+bufora sÄ… zwykle o wiele wiÄ™ksze niÅ¼ oryginalny XML, ale autor tym siÄ™
 zajmie), ale backend przechowywania danych jest wymienny. Do
-wykonywania freeze/thaw u¿ywana jest klasa Storable i aktualnie nie
-jest zamienna, poniewa¿ po prostu nie ma lepszego narzêdzia do tego
+wykonywania freeze/thaw uÅ¼ywana jest klasa Storable i aktualnie nie
+jest zamienna, poniewaÅ¼ po prostu nie ma lepszego narzÄ™dzia do tego
 celu.
 
 %prep
