@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Filter-Cache
 Summary:	XML::Filter::Cache - a SAX2 recorder/playback mechanism
-Summary(pl.UTF-8):   XML::Filter::Cache - mechanizm nagrywania/odtwarzania SAX2
+Summary(pl.UTF-8):	XML::Filter::Cache - mechanizm nagrywania/odtwarzania SAX2
 Name:		perl-XML-Filter-Cache
 Version:	0.03
 Release:	2
