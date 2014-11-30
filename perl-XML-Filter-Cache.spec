@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	XML
 %define		pnam	Filter-Cache
+%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Filter::Cache - a SAX2 recorder/playback mechanism
 Summary(pl.UTF-8):	XML::Filter::Cache - mechanizm nagrywania/odtwarzania SAX2
 Name:		perl-XML-Filter-Cache
@@ -16,6 +16,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2590e2a28c5741aa8cd14503e0ea767e
 Patch0:		%{name}-weird_test_failure.patch
+URL:		http://search.cpan.org/dist/XML-Filter-Cache/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
