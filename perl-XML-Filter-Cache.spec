@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	Filter-Cache
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Filter::Cache - a SAX2 recorder/playback mechanism
 Summary(pl.UTF-8):	XML::Filter::Cache - mechanizm nagrywania/odtwarzania SAX2
 Name:		perl-XML-Filter-Cache
