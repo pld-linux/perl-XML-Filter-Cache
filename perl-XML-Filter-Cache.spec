@@ -8,7 +8,7 @@ Summary:	XML::Filter::Cache - a SAX2 recorder/playback mechanism
 Summary(pl.UTF-8):	XML::Filter::Cache - mechanizm nagrywania/odtwarzania SAX2
 Name:		perl-XML-Filter-Cache
 Version:	0.03
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
